@@ -1,0 +1,9 @@
+[06.23.24|22:17:59] Parameters:
+{'work_dir': './work_dir/recognition/kinetics_skeleton/SAFA_GCN_TOPK', 'config': 'config/safa_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 5, 'use_gpu': True, 'device': [0], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 6000, 'data_path': 'data/My/12A_data.npy', 'label_path': 'data/My/12A_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': 'data/My/38A_data.npy', 'label_path': 'data/My/38A_label.pkl'}, 'batch_size': 1, 'test_batch_size': 1, 'debug': False, 'model': 'net.safa_gcn_twostream_topk.Model', 'model_args': {'in_channels': 3, 'num_class': 2, 'edge_importance_weighting': True, 'graph_args': {'layout': 'alphapose', 'strategy': 'spatial'}, 'kappa': 2}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 1], 'base_lr': 1e-06, 'step': [100, 200, 300, 400, 500], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.1}
+
+[06.23.24|22:17:59] Training epoch: 0
+[06.23.24|22:18:06] 	Iter 0 Done. | loss: 0.1713 | lr: 0.000001
+[06.23.24|22:18:07] 	mean_loss: 0.678014640103687
+[06.23.24|22:18:07] Time consumption:
+[06.23.24|22:18:07] Done.
+[06.23.24|22:18:07] Training epoch: 1
