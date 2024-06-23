@@ -18,6 +18,10 @@ pip install requirement.txt
 `
 cd torchlight; python setup.py install; cd ..
 `
+# For a quick prediction
+`
+python main.py recognition -c config/safa_gcn/kinetics-skeleton/train.yaml
+`
 
 # SAFA-GCN with pseudo Top-K
 `
