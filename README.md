@@ -29,5 +29,6 @@ cd tools
 main.py;     processors['recognition'] = import_class('processor.recognition_topk.REC_Processor')
 `
 # SAFA-GCN without pseudo Top-K
+`
 main.py;     processors['recognition'] = import_class('processor.recognition.REC_Processor')
 `
