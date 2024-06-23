@@ -18,7 +18,7 @@ pip install requirement.txt
 `
 cd torchlight; python setup.py install; cd ..
 `
-# For a quick prediction
+# For a quick MINI-RGBD & RVI-38 cross-dataset evaluation 
 `
 python main.py recognition -c config/safa_gcn/kinetics-skeleton/train.yaml
 `
