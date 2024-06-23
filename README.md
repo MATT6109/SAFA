@@ -19,11 +19,6 @@ pip install requirement.txt
 cd torchlight; python setup.py install; cd ..
 `
 
-# AlphaPose data preprocessing
-`
-cd tools
-`
-
 # SAFA-GCN with pseudo Top-K
 `
 main.py;     processors['recognition'] = import_class('processor.recognition_topk.REC_Processor')
@@ -31,4 +26,9 @@ main.py;     processors['recognition'] = import_class('processor.recognition_top
 # SAFA-GCN without pseudo Top-K
 `
 main.py;     processors['recognition'] = import_class('processor.recognition.REC_Processor')
+`
+
+# AlphaPose data preprocessing
+`
+cd tools
 `
